@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Events Kingdom</title>
+</head>
+<body>
+    <header>
+        <h1>Events Kingdom</h1>
+        <nav>
+            <ul>
+                <li><a href="#account" id="form-open"><i class="bi bi-person">▪️Account</i></a></li>
+                <li><a href="#home"><i class="bi bi-house-door-fill">▪️Home</i></a></li>
+                <li>
+                    <a href="#categories"><i class="bi bi-list-ul">▪️Categories</i></a>
+                    <ul class="dropdown">
+                        <li><a href="#clothes">Clothes</a></li>
+                        <li><a href="#shoes">Shoes</a></li>
+                        <li><a href="#decor">Décor</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#services"><i class="bi bi-ui-radios-grid">▪️Services</i></a>
+                    <ul class="dropdown">
+                        <li><a href="#catering">Catering Services</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#funeral">Funeral</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#birthdays">Birthdays</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#weddings">Weddings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#surprise-parties">Surprise Parties</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#naming-ceremony">Naming Ceremony</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="text" id="search-bar" placeholder="Search...">
+                </li>
+                <li><a href="#cart" class="cart">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Events Kingdom</h2>
+            <p>Your one-stop shop for all event products and services.</p>
+        </section>
+
+
+        <!-- Carousel -->
+
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-contanier " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="IMGS/istockphoto-1997990231-640x640.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="IMGS/events-wedding.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+                                </div>
+                <div class="carousel-item">
+                <img src="IMGS/bday.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>   
+        </div>
+
+        <!-- end carousel -->
+
+
+        <!-- About Start -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center about h-100 py-5 px-3">
+                        <i class="flaticon-brickwall display-1 font-weight-normal  mb-3"></i>
+                        <h4 class="display-3 mb-3">25+</h4>
+                        <h1 class="m-0">Years Experience</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7 m-0 my-lg-5 pt-5 pb-5 pb-lg-2 pl-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Learn About Us</h6>
+                    <h1 class="mb-4 section-title">We Are The Best Events Planning Firm In The Country</h1>
+                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <div class="row py-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-house font-weight-normal  m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Project Planning</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-stairs font-weight-normal  m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Exterior & Interior</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-office font-weight-normal  m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Commercial Design</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-living-room font-weight-normal  m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Residential Design</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+        <!-- login pop up -->
+
+
+         <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Login From -->
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Enter your password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button">Login Now</button>
+
+            <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+          </form>
+        </div>
+
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- end pop pup -->
+
+
+        <section id="Cloth">
+            <h2>Clothes</h2>
+            <div class="product-display">
+                <!-- Placeholder for products -->
+                <div class="product-item">
+                    <img src="/IMGS/tu.webp" alt="Product Image">
+                    <h3>Men's Tuxedo(Black)</h3>
+                    <p>Price: $2000.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/O1CN01lw8fKd2BCpGz9EBuW__504608303_600x.webp" alt="Product Image">
+                    <h3>Child's Party Dress</h3>
+                    <p>Price: $1300.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/pr.webp" alt="Product Image">
+                    <h3>Princess Dress</h3>
+                    <p>Price: $250.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/pr2.webp" alt="Product Image">
+                    <h3>Flower Girl's Dress</h3>
+                    <p>Price: $150.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wd.webp" alt="Product Image">
+                    <h3>Wedding Dress (White)</h3>
+                    <p>Price: $2300.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wd1.webp" alt="Product Image">
+                    <h3>Deluxe Wedding Dress (White)</h3>
+                    <p>Price: $1125.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/tu1.webp" alt="Product Image">
+                    <h3>Men's Suite (Black)</h3>
+                    <p>Price: $123.45</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </section>
+        <section id="shoes">
+            <h2>Shoes</h2>
+            <div class="product-display">
+                <!-- Placeholder for products -->
+                <div class="product-item">
+                    <img src="/IMGS/bella-belle-shoes-fabiola-blush-block-heel-sandals-with-pearls-1.webp" alt="Product Image">
+                    <h3>Belle Shoes</h3>
+                    <p>Price: $2000.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/BellaBelleShoesEllaBlushBridalBlockHeelswithChiffonFlowers3.webp" alt="Product Image">
+                    <h3>Bella Shoes</h3>
+                    <p>Price: $1300.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/moccasin.webp" alt="Product Image">
+                    <h3>Moccasin</h3>
+                    <p>Price: $2050.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/party monk.webp" alt="Product Image">
+                    <h3>Party Monk</h3>
+                    <p>Price: $13450.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/party-shoes-pair-colourful-shiny-sequin-covered-dancing-97761573.webp" alt="Product Image">
+                    <h3>Party Shoes</h3>
+                    <p>Price: $230.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/velvet dress shoes.webp" alt="Product Image">
+                    <h3>Velvet Dress Shoe</h3>
+                    <p>Price: $245.55</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/steve.webp" alt="Product Image">
+                    <h3>Shoe</h3>
+                    <p>Price: $123.45</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </section>
+        <section id="Decor">
+            <h2>Decor</h2>
+            <div class="product-display">
+                <!-- Placeholder for products -->
+                <div class="product-item">
+                    <img src="/IMGS/pd1.webp" alt="Product Image">
+                    <h3>Birthday Decor A</h3>
+                    <p>Price: $4600.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/pd2.webp" alt="Product Image">
+                    <h3>Party Decor A</h3>
+                    <p>Price: $3450.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/pd3.webp" alt="Product Image">
+                    <h3>Birthday Decor B</h3>
+                    <p>Price: $2450.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wd4.webp" alt="Product Image">
+                    <h3>Wedding Decor A</h3>
+                    <p>Price: $3450.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wed2.webp" alt="Product Image">
+                    <h3>Wedding Decor B</h3>
+                    <p>Price: $2300.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wed3.webp" alt="Product Image">
+                    <h3>Wedding Decor C</h3>
+                    <p>Price: $3400.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="/IMGS/wed.webp" alt="Product Image">
+                    <h3>Party Decor</h3>
+                    <p>Price: $6400.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+            <p>Explore various events we provide.</p>
+            <div class="event-list">
+                <!-- Placeholder for events -->
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <button id="checkout">Checkout</button>
+        </section>  
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Events Kingdom. All rights reserved.</p>
+    </footer>
+
+    <script src="sandbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
